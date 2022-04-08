@@ -1,0 +1,107 @@
+body {
+  background-image: url("image/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Roboto", sans-serif;
+  height: 50vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.content {
+  background-color: white;
+  width: 20rem;
+  height: 20rem;
+  font-family: Tahoma, sans-serif;
+  padding: 2rem 1rem;
+  border-radius: 5px;
+}
+.fra {
+  display: flex;
+  justify-content: space-between;
+}
+.fra p {
+  font-size:xx-large;
+  font-weight: bold;
+  color: royalblue;
+  margin: 0 1rem;
+}
+.fra span {
+  display: flex;
+  flex-grow: 0.2;
+  border-bottom: 4px solid grey;
+  margin: 0 1rem;
+  border-color:lightblue;
+}
+.frank {
+  display: flex;
+  justify-content: space-between;
+}
+.frank p {
+  margin: 0 1rem 3rem;
+  font-size:small;
+  color:gray;
+}
+.three {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem 2rem;
+}
+.three p {
+  margin: 0 ;
+  font-size:small;
+}
+.three .flight {
+    color:grey;
+}
+.three .gate {
+    color:grey;
+}
+.three .seat{
+    color:grey;
+}
+.passenger .pass{
+    margin: 0 1rem;
+    color:grey;
+    font-size:small;
+}
+
+.passenger .robert {
+  margin: 0 1rem 1rem;
+  font-size:small;
+}
+.set .class{
+  margin: 0 1rem;
+  color:grey;
+  font-size:small;
+  
+}
+.set .business{
+    margin: 0 1rem 1rem;
+    font-size:small;
+  }
+.depart .departure{
+    margin: 0 1rem;
+    color:grey;
+    font-size:small;
+}
+.depart .time{
+    margin: 0 1rem;
+    font-size:small;
+}
+.image{
+    image-resolution:initial;
+    place-content:flex-end;
+}
+
+.image img{
+    width: 90%;
+    height: 90%;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
